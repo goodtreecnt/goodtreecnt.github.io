@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Translation | Medical Consultation | GT-CnT</title>
+<meta name="description" content="Korean–Japanese translation of documents and communications related to medical consultation.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav solid" id="siteNav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><img src="images/logo.png" alt="GT-CnT logo"></span>
+      <span class="brand-text">GT<span>-</span>CnT</span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html#overview">Overview</a>
+      <a href="export.html">Export</a>
+      <a href="consulting.html">Consulting</a>
+      <a href="translation.html">Translation</a>
+      <a href="medical.html" class="active">Medical</a>
+      <a href="index.html#why">Why Us</a>
+      <a href="index.html#process">Process</a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+      <div class="lang-switch"><a href="#" class="on">EN</a><a href="ja/medical-translation.html">JA</a></div>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="medical.html">Medical Consultation</a> &nbsp;/&nbsp; Translation</div>
+    <span class="num">Medical Consultation</span>
+    <h1>Translation</h1>
+    <p class="lede">Korean–Japanese translation of documents and communications related to medical consultation.</p>
+  </div>
+</section>
+
+<section class="pad-lg">
+  <div class="container">
+    <div class="sec-head">
+      <span class="num">What's Included</span>
+      <h2>Documents and messages, in both languages.</h2>
+      <p>Korean–Japanese translation of the documents and communications involved in your consultation.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-item"><h4>Relevant documents</h4><p>Korean–Japanese translation of consultation-related documents.</p></div>
+      <div class="category-item"><h4>Communications</h4><p>Korean–Japanese translation of messages with institutions.</p></div>
+    </div>
+
+    <div class="flow">
+      <div class="flow-step"><span class="fn">01</span><h5>Information</h5></div>
+      <div class="flow-step"><span class="fn">02</span><h5>Institution Research</h5></div>
+      <div class="flow-step"><span class="fn">03</span><h5>Communication</h5></div>
+      <div class="flow-step"><span class="fn">04</span><h5>Translation</h5></div>
+      <div class="flow-step"><span class="fn">05</span><h5>Consultation Support</h5></div>
+    </div>
+    <p style="margin-top:44px;font-size:0.94rem;color:var(--muted);border-left:3px solid var(--accent-red);padding-left:18px;max-width:64ch;">GT-CnT provides information, communication and coordination support only. Medical diagnosis and treatment decisions remain the responsibility of qualified medical professionals.</p>
+
+    <div class="category-pill-row">
+      <div class="label">OTHER SUPPORT AREAS</div>
+      <div class="pills"><a href="medical-information.html">Information Gathering</a><a href="institution-research.html">Institution Research</a><a href="medical-communication.html">Communication</a><a href="medical-translation.html" class="current">Translation</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="pad-md band-navy">
+  <div class="container">
+    <div class="next-up">
+      <div>
+        <div class="label">Back to overview</div>
+        <a class="next-link" href="medical.html">Japan Medical Regenerative Consultation&nbsp;&rarr;</a>
+      </div>
+      <a class="btn btn-primary" href="contact.html?cat=medical-consultation">Start a consultation</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>&copy; 2026 GT-CnT. All rights reserved.</div>
+    <div class="tagline">AI Speed. Human Responsibility. Business Connection.</div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+
+</body>
+</html>

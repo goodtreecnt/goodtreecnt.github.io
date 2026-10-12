@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Healthcare & Medical | Translation | GT-CnT</title>
+<meta name="description" content="Korean–Japanese translation of medical documents, healthcare information and medical institution materials.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav solid" id="siteNav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><img src="images/logo.png" alt="GT-CnT logo"></span>
+      <span class="brand-text">GT<span>-</span>CnT</span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html#overview">Overview</a>
+      <a href="export.html">Export</a>
+      <a href="consulting.html">Consulting</a>
+      <a href="translation.html" class="active">Translation</a>
+      <a href="medical.html">Medical</a>
+      <a href="index.html#why">Why Us</a>
+      <a href="index.html#process">Process</a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+      <div class="lang-switch"><a href="#" class="on">EN</a><a href="ja/healthcare-translation.html">JA</a></div>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="translation.html">Translation</a> &nbsp;/&nbsp; Healthcare &amp; Medical</div>
+    <span class="num">Translation</span>
+    <h1>Healthcare &amp; Medical</h1>
+    <p class="lede">Korean–Japanese translation of medical documents, healthcare information and medical institution materials.</p>
+  </div>
+</section>
+
+<section class="pad-lg">
+  <div class="container">
+    <div class="sec-head">
+      <span class="num">What's Included</span>
+      <h2>Medical content, translated with care.</h2>
+      <p>Healthcare content requires precise terminology and a tone appropriate for its audience.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-item"><h4>Medical documents</h4><p>Clinical and administrative documents translated with correct medical terminology.</p></div>
+      <div class="category-item"><h4>Healthcare information</h4><p>Patient-facing and institutional healthcare information.</p></div>
+      <div class="category-item"><h4>Medical institution materials</h4><p>Materials produced by hospitals and clinics for patients or partners.</p></div>
+      <div class="category-item"><h4>Patient-related information</h4><p>Patient records and related information handled with appropriate care.</p></div>
+      <div class="category-item"><h4>Medical service content</h4><p>Descriptions of medical services and treatment programs.</p></div>
+    </div>
+
+    <div class="flow">
+      <div class="flow-step"><span class="fn">01</span><h5>AI Draft</h5></div>
+      <div class="flow-step"><span class="fn">02</span><h5>Expert Review</h5></div>
+      <div class="flow-step"><span class="fn">03</span><h5>Native Check</h5></div>
+      <div class="flow-step"><span class="fn">04</span><h5>Final QA</h5></div>
+    </div>
+    <p style="margin-top:44px;font-size:0.94rem;color:var(--muted);border-left:3px solid var(--accent-red);padding-left:18px;max-width:64ch;">Our approach: accuracy, terminology, context and cultural localization — AI speeds up the draft, and GT-CnT takes responsibility for the result.</p>
+
+    <div class="category-pill-row">
+      <div class="label">OTHER TRANSLATION AREAS</div>
+      <div class="pills"><a href="legal-translation.html">Legal &amp; Contracts</a><a href="healthcare-translation.html" class="current">Healthcare &amp; Medical</a><a href="pharmaceutical-translation.html">Pharmaceutical</a><a href="cosmetics-translation.html">Cosmetics &amp; Labeling</a><a href="technical-translation.html">Technical &amp; Patents</a><a href="business-translation.html">Business</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="pad-md band-navy">
+  <div class="container">
+    <div class="next-up">
+      <div>
+        <div class="label">Back to overview</div>
+        <a class="next-link" href="translation.html">Korean&ndash;Japanese Legal &amp; Healthcare Translation&nbsp;&rarr;</a>
+      </div>
+      <a class="btn btn-primary" href="contact.html?cat=translation">Request a translation quote</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>&copy; 2026 GT-CnT. All rights reserved.</div>
+    <div class="tagline">AI Speed. Human Responsibility. Business Connection.</div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+
+</body>
+</html>

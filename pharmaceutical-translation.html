@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pharmaceutical | Translation | GT-CnT</title>
+<meta name="description" content="Korean–Japanese translation of pharmaceutical information, product materials and healthcare communications.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav solid" id="siteNav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><img src="images/logo.png" alt="GT-CnT logo"></span>
+      <span class="brand-text">GT<span>-</span>CnT</span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html#overview">Overview</a>
+      <a href="export.html">Export</a>
+      <a href="consulting.html">Consulting</a>
+      <a href="translation.html" class="active">Translation</a>
+      <a href="medical.html">Medical</a>
+      <a href="index.html#why">Why Us</a>
+      <a href="index.html#process">Process</a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+      <div class="lang-switch"><a href="#" class="on">EN</a><a href="ja/pharmaceutical-translation.html">JA</a></div>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="translation.html">Translation</a> &nbsp;/&nbsp; Pharmaceutical</div>
+    <span class="num">Translation</span>
+    <h1>Pharmaceutical</h1>
+    <p class="lede">Korean–Japanese translation of pharmaceutical information, product materials and healthcare communications.</p>
+  </div>
+</section>
+
+<section class="pad-lg">
+  <div class="container">
+    <div class="sec-head">
+      <span class="num">What's Included</span>
+      <h2>Pharmaceutical terminology done right.</h2>
+      <p>Product and pharmaceutical materials depend on consistent, accurate medical terminology.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-item"><h4>Pharmaceutical information</h4><p>Product information and regulatory-facing pharmaceutical content.</p></div>
+      <div class="category-item"><h4>Product materials</h4><p>Labeling, inserts and other product-related materials.</p></div>
+      <div class="category-item"><h4>Medical terminology</h4><p>Specialized terminology handled with pharmaceutical and clinical accuracy.</p></div>
+      <div class="category-item"><h4>Healthcare communications</h4><p>Communications between manufacturers, distributors and healthcare providers.</p></div>
+    </div>
+
+    <div class="flow">
+      <div class="flow-step"><span class="fn">01</span><h5>AI Draft</h5></div>
+      <div class="flow-step"><span class="fn">02</span><h5>Expert Review</h5></div>
+      <div class="flow-step"><span class="fn">03</span><h5>Native Check</h5></div>
+      <div class="flow-step"><span class="fn">04</span><h5>Final QA</h5></div>
+    </div>
+    <p style="margin-top:44px;font-size:0.94rem;color:var(--muted);border-left:3px solid var(--accent-red);padding-left:18px;max-width:64ch;">Our approach: accuracy, terminology, context and cultural localization — AI speeds up the draft, and GT-CnT takes responsibility for the result.</p>
+
+    <div class="category-pill-row">
+      <div class="label">OTHER TRANSLATION AREAS</div>
+      <div class="pills"><a href="legal-translation.html">Legal &amp; Contracts</a><a href="healthcare-translation.html">Healthcare &amp; Medical</a><a href="pharmaceutical-translation.html" class="current">Pharmaceutical</a><a href="cosmetics-translation.html">Cosmetics &amp; Labeling</a><a href="technical-translation.html">Technical &amp; Patents</a><a href="business-translation.html">Business</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="pad-md band-navy">
+  <div class="container">
+    <div class="next-up">
+      <div>
+        <div class="label">Back to overview</div>
+        <a class="next-link" href="translation.html">Korean&ndash;Japanese Legal &amp; Healthcare Translation&nbsp;&rarr;</a>
+      </div>
+      <a class="btn btn-primary" href="contact.html?cat=translation">Request a translation quote</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>&copy; 2026 GT-CnT. All rights reserved.</div>
+    <div class="tagline">AI Speed. Human Responsibility. Business Connection.</div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+
+</body>
+</html>

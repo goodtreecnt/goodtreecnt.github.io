@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japan Medical Regenerative Consultation | GT-CnT</title>
+<meta name="description" content="Information, communication and coordination support for individuals and organizations considering medical regenerative care in Japan.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav solid" id="siteNav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><img src="images/logo.png" alt="GT-CnT logo"></span>
+      <span class="brand-text">GT<span>-</span>CnT</span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html#overview">Overview</a>
+      <a href="export.html">Export</a>
+      <a href="consulting.html">Consulting</a>
+      <a href="translation.html">Translation</a>
+      <a href="medical.html" class="active">Medical</a>
+      <a href="index.html#why">Why Us</a>
+      <a href="index.html#process">Process</a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+      <div class="lang-switch"><a href="#" class="on">EN</a><a href="ja/medical.html">JA</a></div>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Medical Consultation</div>
+    <span class="num">Business Area 04</span>
+    <h1>Information before decision.</h1>
+    <p class="lede">For clients considering medical regenerative care in Japan, access to reliable information and clear communication is essential. GT-CnT provides information research, medical institution research, and Korean&ndash;Japanese communication and translation support.</p>
+    <div class="tags">
+      <a href="medical-information.html">Information Gathering</a>
+      <a href="institution-research.html">Institution Research</a>
+      <a href="medical-communication.html">Communication</a>
+      <a href="medical-translation.html">Translation</a>
+    </div>
+  </div>
+</section>
+
+<section class="pad-lg">
+  <div class="container">
+    <div class="sec-head">
+      <span class="num">Our Support</span>
+      <h2>Consultation support, step by step.</h2>
+      <p>The purpose of this service is to help clients better understand the available information and communicate with relevant medical institutions.</p>
+    </div>
+
+    <div class="grid-4">
+      <div class="card">
+        <h4>Information Gathering</h4>
+        <p>Research relevant medical institutions and available treatment information.</p>
+        <a class="more" href="medical-information.html">Learn more&nbsp;&rarr;</a>
+      </div>
+      <div class="card">
+        <h4>Medical Institution Research</h4>
+        <p>Review publicly available information regarding hospitals, clinics and treatment programs.</p>
+        <a class="more" href="institution-research.html">Learn more&nbsp;&rarr;</a>
+      </div>
+      <div class="card">
+        <h4>Communication Support</h4>
+        <p>Assist communication between clients and Japanese medical institutions.</p>
+        <a class="more" href="medical-communication.html">Learn more&nbsp;&rarr;</a>
+      </div>
+      <div class="card">
+        <h4>Translation &amp; Coordination</h4>
+        <p>Support Korean&ndash;Japanese translation of relevant documents and communications, and assist with coordination where appropriate.</p>
+        <a class="more" href="medical-translation.html">Learn more&nbsp;&rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pad-lg band-paper">
+  <div class="container">
+    <div class="sec-head">
+      <span class="num">Korea&nbsp;&rarr; Japan</span>
+      <h2>From client to institution.</h2>
+    </div>
+    <div class="flow">
+      <div class="flow-step"><span class="fn">01</span><h5>Client</h5></div>
+      <div class="flow-step"><span class="fn">02</span><h5>Information &amp; Institution Research</h5></div>
+      <div class="flow-step"><span class="fn">03</span><h5>GT-CnT</h5></div>
+      <div class="flow-step"><span class="fn">04</span><h5>Communication &amp; Translation</h5></div>
+      <div class="flow-step"><span class="fn">05</span><h5>Japanese Medical Institution</h5></div>
+    </div>
+
+    <p style="margin-top:44px;font-size:0.94rem;color:var(--muted);border-left:3px solid var(--accent-red);padding-left:18px;max-width:64ch;">
+      GT-CnT's role is to provide information, communication and coordination support &mdash; not to replace the judgment of qualified medical professionals. Medical diagnosis and treatment decisions remain the responsibility of qualified medical professionals.
+    </p>
+  </div>
+</section>
+
+<section class="pad-md band-navy">
+  <div class="container">
+    <div class="next-up">
+      <div>
+        <div class="label">Back to the start</div>
+        <a class="next-link" href="export.html">Pharmaceutical &amp; Medical Device Export&nbsp;&rarr;</a>
+      </div>
+      <a class="btn btn-primary" href="contact.html?cat=medical-consultation">Start a consultation</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>&copy; 2026 GT-CnT. All rights reserved.</div>
+    <div class="tagline">AI Speed. Human Responsibility. Business Connection.</div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+
+</body>
+</html>

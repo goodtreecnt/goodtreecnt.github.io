@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business | Translation | GT-CnT</title>
+<meta name="description" content="Korean–Japanese translation and localization of company profiles, proposals, marketing materials and websites.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav solid" id="siteNav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><img src="images/logo.png" alt="GT-CnT logo"></span>
+      <span class="brand-text">GT<span>-</span>CnT</span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html#overview">Overview</a>
+      <a href="export.html">Export</a>
+      <a href="consulting.html">Consulting</a>
+      <a href="translation.html" class="active">Translation</a>
+      <a href="medical.html">Medical</a>
+      <a href="index.html#why">Why Us</a>
+      <a href="index.html#process">Process</a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+      <div class="lang-switch"><a href="#" class="on">EN</a><a href="ja/business-translation.html">JA</a></div>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="translation.html">Translation</a> &nbsp;/&nbsp; Business</div>
+    <span class="num">Translation</span>
+    <h1>Business</h1>
+    <p class="lede">Korean–Japanese translation and localization of company profiles, proposals, marketing materials and websites.</p>
+  </div>
+</section>
+
+<section class="pad-lg">
+  <div class="container">
+    <div class="sec-head">
+      <span class="num">What's Included</span>
+      <h2>Business communication that fits the market.</h2>
+      <p>Business content must be accurate and also natural within the target language and business culture.</p>
+    </div>
+    <div class="category-grid">
+      <div class="category-item"><h4>Company profiles</h4><p>Company introductions used in proposals and partner outreach.</p></div>
+      <div class="category-item"><h4>Business proposals</h4><p>Proposals and quotations prepared for Korean or Japanese counterparts.</p></div>
+      <div class="category-item"><h4>Marketing materials</h4><p>Marketing and promotional content localized for the target audience.</p></div>
+      <div class="category-item"><h4>Presentations</h4><p>Slide decks and presentation materials for business meetings.</p></div>
+      <div class="category-item"><h4>Websites</h4><p>Website content translated and localized for Korean or Japanese visitors.</p></div>
+      <div class="category-item"><h4>Corporate communications</h4><p>Internal and external corporate communications.</p></div>
+    </div>
+
+    <div class="flow">
+      <div class="flow-step"><span class="fn">01</span><h5>AI Draft</h5></div>
+      <div class="flow-step"><span class="fn">02</span><h5>Expert Review</h5></div>
+      <div class="flow-step"><span class="fn">03</span><h5>Native Check</h5></div>
+      <div class="flow-step"><span class="fn">04</span><h5>Final QA</h5></div>
+    </div>
+    <p style="margin-top:44px;font-size:0.94rem;color:var(--muted);border-left:3px solid var(--accent-red);padding-left:18px;max-width:64ch;">Our approach: accuracy, terminology, context and cultural localization — AI speeds up the draft, and GT-CnT takes responsibility for the result.</p>
+
+    <div class="category-pill-row">
+      <div class="label">OTHER TRANSLATION AREAS</div>
+      <div class="pills"><a href="legal-translation.html">Legal &amp; Contracts</a><a href="healthcare-translation.html">Healthcare &amp; Medical</a><a href="pharmaceutical-translation.html">Pharmaceutical</a><a href="cosmetics-translation.html">Cosmetics &amp; Labeling</a><a href="technical-translation.html">Technical &amp; Patents</a><a href="business-translation.html" class="current">Business</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="pad-md band-navy">
+  <div class="container">
+    <div class="next-up">
+      <div>
+        <div class="label">Back to overview</div>
+        <a class="next-link" href="translation.html">Korean&ndash;Japanese Legal &amp; Healthcare Translation&nbsp;&rarr;</a>
+      </div>
+      <a class="btn btn-primary" href="contact.html?cat=translation">Request a translation quote</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>&copy; 2026 GT-CnT. All rights reserved.</div>
+    <div class="tagline">AI Speed. Human Responsibility. Business Connection.</div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+
+</body>
+</html>

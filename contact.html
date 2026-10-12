@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | GT-CnT</title>
+<meta name="description" content="Contact GT-CnT about product sourcing and export, product and market research, Korean–Japanese translation or Japan medical consultation.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-nav solid" id="siteNav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><img src="images/logo.png" alt="GT-CnT logo"></span>
+      <span class="brand-text">GT<span>-</span>CnT</span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html#overview">Overview</a>
+      <a href="export.html">Export</a>
+      <a href="consulting.html">Consulting</a>
+      <a href="translation.html">Translation</a>
+      <a href="medical.html">Medical</a>
+      <a href="index.html#why">Why Us</a>
+      <a href="index.html#process">Process</a>
+      <a href="contact.html" class="nav-cta active">Contact</a>
+      <div class="lang-switch"><a href="#" class="on">EN</a><a href="ja/contact.html">JA</a></div>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Contact</div>
+    <span class="num">Get in touch</span>
+    <h1>Let's connect.</h1>
+    <p class="lede">Send us your inquiry and our team will respond within 24 hours with product availability and pricing.</p>
+  </div>
+</section>
+
+<section class="pad-lg">
+  <div class="container contact-page">
+    <div>
+      <div class="info-card">
+        <h3>Contact Information</h3>
+        <div class="info-item"><span class="k">EMAIL</span><span class="v"><a href="mailto:gtcosmed@gmail.com">gtcosmed@gmail.com</a></span></div>
+        <div class="info-item"><span class="k">BASED IN</span><span class="v">Republic of Korea</span></div>
+        <div class="info-item"><span class="k">RESPONSE TIME</span><span class="v">Within 24 hours</span></div>
+        <div class="info-item"><span class="k">EXPORT REGIONS</span><span class="v">Asia, Europe, Americas, Middle East and more</span></div>
+      </div>
+      <div class="promise-box">
+        <strong>Our three promises</strong>
+        <ul>
+          <li>Stable, certified Korean products</li>
+          <li>Competitive pricing</li>
+          <li>Fast, tracked international delivery</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div class="sec-head" style="margin-bottom:28px;">
+        <span class="num">Send an inquiry</span>
+        <h2>Inquiry form</h2>
+      </div>
+      <form class="form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group"><label for="name">Full Name *</label><input type="text" id="name" name="name" placeholder="Your name" required></div>
+          <div class="form-group"><label for="email">Email Address *</label><input type="email" id="email" name="email" placeholder="you@example.com" required></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label for="company">Company / Clinic</label><input type="text" id="company" name="company" placeholder="Your company name"></div>
+          <div class="form-group"><label for="country">Country</label><input type="text" id="country" name="country" placeholder="Your country"></div>
+        </div>
+        <div class="form-group">
+          <label for="product">Topic of Interest</label>
+          <select id="product" name="product">
+            <option value="">— Select a topic —</option>
+            <option value="pharmaceuticals">Pharmaceuticals</option>
+            <option value="medical-devices">Medical Devices</option>
+            <option value="aesthetics">Aesthetics</option>
+            <option value="cosmetics-healthcare">Cosmetics &amp; Healthcare</option>
+            <option value="consulting">Product &amp; Market Research</option>
+            <option value="translation">Korean–Japanese Translation</option>
+            <option value="medical-consultation">Japan Medical Regenerative Consultation</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group"><label for="message">Message *</label><textarea id="message" name="message" placeholder="Describe your requirements — products, quantities, destination country and any other details." required></textarea></div>
+        <p class="form-note">Your inquiry will be sent to <strong>gtcosmed@gmail.com</strong>. We aim to respond within 24 hours.</p>
+        <div class="form-msg ok" id="formOk">Thank you! Your inquiry has been sent. We'll respond within 24 hours.</div>
+        <div class="form-msg err" id="formErr">Something went wrong. Please email us directly at gtcosmed@gmail.com</div>
+        <button type="submit" class="btn btn-primary">Send Inquiry →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>&copy; 2026 GT-CnT. All rights reserved.</div>
+    <div class="tagline">AI Speed. Human Responsibility. Business Connection.</div>
+  </div>
+</footer>
+
+<script src="js/inquiry.js"></script>
+<script>
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+
+</body>
+</html>

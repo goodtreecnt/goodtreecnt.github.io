@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ | GT-CnT</title>
+<meta name="description" content="製品ソーシング・輸出、製品・市場リサーチ、韓日翻訳、日本の再生医療コンサルティングに関するお問い合わせは、GT-CnTまでご連絡ください。">
+<link rel="icon" href="../images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="site-nav solid" id="siteNav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><img src="../images/logo.png" alt="GT-CnT logo"></span>
+      <span class="brand-text">GT<span>-</span>CnT</span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="index.html#overview">会社概要</a>
+      <a href="export.html">輸出事業</a>
+      <a href="consulting.html">コンサルティング</a>
+      <a href="translation.html">翻訳</a>
+      <a href="medical.html">医療<wbr>コンサルティング</a>
+      <a href="index.html#why">選ばれる<wbr>理由</a>
+      <a href="index.html#process">業務の<wbr>流れ</a>
+      <a href="contact.html" class="nav-cta active">お問い合わせ</a>
+      <div class="lang-switch"><a href="../contact.html">EN</a><a href="#" class="on">JA</a></div>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">ホーム</a> &nbsp;/&nbsp; お問い合わせ</div>
+    <span class="num">お問い合わせ</span>
+    <h1>つながりましょう。</h1>
+    <p class="lede">お問い合わせを<wbr>送っていただければ、<wbr>24時間以内に<wbr>製品の<wbr>在庫状況や<wbr>価格に<wbr>ついて<wbr>ご返信いたします。</p>
+  </div>
+</section>
+
+<section class="pad-lg">
+  <div class="container contact-page">
+    <div>
+      <div class="info-card">
+        <h3>連絡先情報</h3>
+        <div class="info-item"><span class="k">メール</span><span class="v"><a href="mailto:gtcosmed@gmail.com">gtcosmed@gmail.com</a></span></div>
+        <div class="info-item"><span class="k">拠点</span><span class="v">大韓民国</span></div>
+        <div class="info-item"><span class="k">返信時間</span><span class="v">24時間以内</span></div>
+        <div class="info-item"><span class="k">対応地域</span><span class="v">アジア、<wbr>ヨーロッパ、<wbr>アメリカ、<wbr>中<wbr>東 他</span></div>
+      </div>
+      <div class="promise-box">
+        <strong>私たちの<wbr>3つの<wbr>約束</strong>
+        <ul>
+          <li>安定した、<wbr>認証済みの<wbr>韓国製品</li>
+          <li>競争力の<wbr>ある<wbr>価格</li>
+          <li>迅速で<wbr>追跡可能な<wbr>国際配送</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div class="sec-head" style="margin-bottom:28px;">
+        <span class="num">お問い合わせを<wbr>送る</span>
+        <h2>お問い合わせ<wbr>フォーム</h2>
+      </div>
+      <form class="form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group"><label for="name">お名前 *</label><input type="text" id="name" name="name" placeholder="お名前を入力してください" required></div>
+          <div class="form-group"><label for="email">メールアドレス *</label><input type="email" id="email" name="email" placeholder="you@example.com" required></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label for="company">会社名 / クリニック<wbr>名</label><input type="text" id="company" name="company" placeholder="会社名を入力してください"></div>
+          <div class="form-group"><label for="country">国</label><input type="text" id="country" name="country" placeholder="所在国を入力してください"></div>
+        </div>
+        <div class="form-group">
+          <label for="product">ご関心の<wbr>テーマ</label>
+          <select id="product" name="product">
+            <option value="">— テーマを<wbr>選択 —</option>
+            <option value="pharmaceuticals">医薬品</option>
+            <option value="medical-devices">医療機器</option>
+            <option value="aesthetics">エステティック</option>
+            <option value="cosmetics-healthcare">化粧品・<wbr>ヘルスケア</option>
+            <option value="consulting">製品・<wbr>市場<wbr>リサーチ</option>
+            <option value="translation">韓日翻訳</option>
+            <option value="medical-consultation">日本の<wbr>再生医療<wbr>コンサルティング</option>
+            <option value="other">その<wbr>他</option>
+          </select>
+        </div>
+        <div class="form-group"><label for="message">メッセージ *</label><textarea id="message" name="message" placeholder="ご要望の詳細をご記入ください — 製品、数量、配送先国、その他の詳細情報" required></textarea></div>
+        <p class="form-note">お問い合わせは<wbr> <strong>gtcosmed@gmail.com</strong> に<wbr>送信されます。<wbr>24時間以内の<wbr>ご返信を<wbr>心がけて<wbr>おります。</p>
+        <div class="form-msg ok" id="formOk">ありがとう<wbr>ございます。<wbr>お問い合わせを<wbr>送信しました。<wbr>24時間以内に<wbr>ご返信いたします。</div>
+        <div class="form-msg err" id="formErr">エラーが<wbr>発生しました。<wbr>お手数ですが<wbr> gtcosmed@gmail.com まで<wbr>直接メールを<wbr>お送りください。</div>
+        <button type="submit" class="btn btn-primary">送信する<wbr> →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>&copy; 2026 GT-CnT. All rights reserved.</div>
+    <div class="tagline">AI Speed. Human Responsibility. Business Connection.</div>
+  </div>
+</footer>
+
+<script src="../js/inquiry.js"></script>
+<script>
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+
+</body>
+</html>
